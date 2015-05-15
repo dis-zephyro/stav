@@ -1447,12 +1447,13 @@ html {
   /* IE6-8 */
 }
 .popup .popup-content {
-  padding: 30px 20px 15px 20px;
+  padding: 30px 20px;
 }
 .form .form-group {
   position: relative;
   margin-bottom: 15px;
 }
+.form .form-group textarea,
 .form .form-group input[type="text"] {
   width: 100%;
   outline: none;
@@ -1464,9 +1465,11 @@ html {
   line-height: 20px;
   border: 1px solid #b7bbbf;
 }
+.form .form-group textarea:focus,
 .form .form-group input[type="text"]:focus {
   border-color: #000;
 }
+.form .form-group .red textarea,
 .form .form-group .red input[type="text"] {
   border-color: #af3b44;
 }

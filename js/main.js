@@ -28,12 +28,13 @@ $(document).ready(function(){
         {
             var $form = $(this).parent(),
                 name =     $('input[name="name"]', $form).val(),
-                phone =    $('input[name="phone"]', $form).val();
+                phone =    $('input[name="phone"]', $form).val(),
+                quest =    $('textarea[name="quest"]', $form).val();
 
             $.ajax({
                 type: "POST",
                 url: "form-handler.php",
-                data: {name: name, phone: phone}
+                data: {name: name, phone: phone, quest: quest}
             }).done(function(msg) {
                 $('.form').find('input[type=text], textarea').val('');
                 $.fancybox.close();

@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $phone = $_POST['phone'];
-    $email = $_POST['email'];
+    $quest = $_POST['$quest'];
 
 	
     require 'class.phpmailer.php';
@@ -10,6 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $msg = "Имя: $name<br/>";
     if(isset($phone)){$msg .= "Телефон: $phone <br/>";}
 	if(isset($email)){$msg .= "Email: $email <br/>";}
+    if(isset($quest)){$msg .= "Сообщение: $quest <br/>";}
 
 
     $mail = new PHPMailer();
