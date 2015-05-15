@@ -18,6 +18,37 @@ $(function() {
 });
 
 $(document).ready(function(){
+
+    // Анимация
+    var Android = navigator.userAgent.search(/Android/i);
+    var iPhone = navigator.userAgent.search(/iPhone/i);
+    var iPad = navigator.userAgent.search(/iPad/i);
+    if(Android != -1 || iPhone != -1 || iPad != -1) {
+
+    } else {
+
+
+        $(".scroll").each(function () { // анимация по скролу(используйте этот) достаточно добавить анимируемому блоку класс 'scroll' а css анимацию писать так: '.animated.класс_блока'
+            var block = $(this);
+            $(window).scroll(function() {
+                var top = block.offset().top;
+                var bottom = block.height()+top;
+                top = top - $(window).height();
+                var scroll_top = $(this).scrollTop();
+                if ((scroll_top > top) && (scroll_top < bottom)) {
+                    if (!block.hasClass("animated")) {
+                        block.addClass("animated");
+                    }
+                } else {
+                    block.removeClass("animated");
+                }
+            });
+        });
+        $('head').append('<link rel="stylesheet" type="text/css" href="css/animate.css" />'); //подключение файла animation.css если не мобильник
+        $('head').append('<link rel="stylesheet" type="text/css" href="css/animation.css" />'); //подключение файла animation.css если не мобильник
+    }
+
+
     $('input[placeholder], textarea[placeholder]').placeholder();
 
     $('.btn-send').click(function() {
@@ -39,13 +70,28 @@ $(document).ready(function(){
                 $('.form').find('input[type=text], textarea').val('');
                 $.fancybox.close();
                 window.alert('«Ваше сообщение отправлено. Менеджер перезвонит Вам»');
-                console.log('удачно')
+                console.log('удачно');
+                console.log(quest)
             });
         }
     });
+
+
+
+    $('.tab').hide();
+
+    $('.all').click(function(event) {
+        event.preventDefault(); // Для того чтобы при нажатии на ссылку не кидало вверх
+        $('.tab').slideToggle();
+        location.hash = this.hash;
+    });
+
+    if (location.hash == '.tab') {
+        $('.preview').click();
+    }
 });
 
-$(".popup-form").fancybox({
+$(".popup-form, .gallery").fancybox({
     'padding' : 0
 });
 

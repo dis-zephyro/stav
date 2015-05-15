@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $phone = $_POST['phone'];
-    $quest = $_POST['$quest'];
+    $quest = $_POST['quest'];
 
 	
     require 'class.phpmailer.php';

@@ -914,6 +914,7 @@ html {
 .block11 ul li .item {
   float: left;
   height: 100px;
+  display: block;
   overflow: hidden;
   position: relative;
 }

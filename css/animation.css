@@ -1,0 +1,170 @@
+
+.block06 .problem li {
+	opacity: 0;
+}
+
+.block06 .problem li.item1.animated {
+	-webkit-animation: scaleUp 1s .2s forwards;
+	animation: scaleUp 1s .2s forwards;
+}
+
+.block06 .problem li.item2.animated {
+	-webkit-animation: scaleUp 1s .2s forwards;
+	animation: scaleUp  1s.2s forwards;
+}
+
+.block06 .problem li.item3.animated {
+	-webkit-animation: scaleUp 1s .2s forwards;
+	animation: scaleUp 1s .2s forwards;
+}
+
+.block06 .problem li.item4.animated {
+	-webkit-animation: scaleUp 1s .4s forwards;
+	animation: scaleUp 1s .4s forwards;
+}
+
+.block06 .problem li.item5.animated {
+	-webkit-animation: scaleUp 1s .4s forwards;
+	animation: scaleUp 1s .4s forwards;
+}
+
+.block06 .problem li.item6.animated {
+	-webkit-animation: scaleUp 1s .4s forwards;
+	animation: scaleUp 1s .4s forwards;
+}
+
+.block06 .problem li.item7.animated{
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+.block06 .problem li.item8.animated {
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+.block06 .problem li.item9.animated {
+	-webkit-animation: scaleUp 1s .4s forwards;
+	animation: scaleUp 1s .4s forwards;
+}
+
+.block06 .problem li.item10.animated {
+	-webkit-animation: scaleUp 1s .4s forwards;
+	animation: scaleUp 1s .4s forwards;
+}
+
+.block06 .problem li.item11.animated{
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+.block06 .problem li.item12.animated {
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+.block06 .problem li.item13.animated {
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+.block06 .problem li.item14.animated {
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+/* --------------------------------- */
+
+.block07 .advant li {
+	opacity: 0;
+}
+
+.block07 .advant li.item1.animated {
+	-webkit-animation: scaleUp 1s .2s forwards;
+	animation: scaleUp 1s .2s forwards;
+}
+
+.block07 .advant li.item2.animated {
+	-webkit-animation: scaleUp 1s .2s forwards;
+	animation: scaleUp  1s.2s forwards;
+}
+
+.block07 .advant li.item3.animated {
+	-webkit-animation: scaleUp 1s .2s forwards;
+	animation: scaleUp 1s .2s forwards;
+}
+
+.block07 .advant li.item4.animated {
+	-webkit-animation: scaleUp 1s .4s forwards;
+	animation: scaleUp 1s .4s forwards;
+}
+
+.block07 .advant li.item5.animated {
+	-webkit-animation: scaleUp 1s .4s forwards;
+	animation: scaleUp 1s .4s forwards;
+}
+
+.block07 .advant li.item6.animated {
+	-webkit-animation: scaleUp 1s .4s forwards;
+	animation: scaleUp 1s .4s forwards;
+}
+
+.block07 .advant li.item7.animated{
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+.block07 .advant li.item8.animated {
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+.block07 .advant li.item9.animated {
+	-webkit-animation: scaleUp 1s .4s forwards;
+	animation: scaleUp 1s .4s forwards;
+}
+
+.block07 .advant li.item10.animated {
+	-webkit-animation: scaleUp 1s .4s forwards;
+	animation: scaleUp 1s .4s forwards;
+}
+
+.block07 .advant li.item11.animated{
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+.block07 .advant li.item12.animated {
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+.block07 .advant li.item13.animated {
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+.block07 .advant li.item14.animated {
+	-webkit-animation: scaleUp 1s .6s forwards;
+	animation: scaleUp 1s .6s forwards;
+}
+
+.block07 .advant li.item15.animated{
+	-webkit-animation: scaleUp 1s .8s forwards;
+	animation: scaleUp 1s .8s forwards;
+}
+
+.block07 .advant li.item16.animated {
+	-webkit-animation: scaleUp 1s .8s forwards;
+	animation: scaleUp 1s .8s forwards;
+}
+
+.block07 .advant li.item17.animated {
+	-webkit-animation: scaleUp 1s .8s forwards;
+	animation: scaleUp 1s .8s forwards;
+}
+
+.block07 .advant li.item18.animated {
+	-webkit-animation: scaleUp 1s .8s forwards;
+	animation: scaleUp 1s .8s forwards;
+}
