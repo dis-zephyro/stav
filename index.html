@@ -11,6 +11,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="js/vendor/jquery.fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="js/vendor/slick/slick.css">
         <link rel="stylesheet/less" href="css/main.less">
         <script src="js/vendor/less.min.js"></script>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -28,12 +29,12 @@
                 <a href="#" id="pull"></a>
                 <div class="topnav-inner">
                     <ul class="clearfix">
-                        <li><a href="#">Укладка плитки</a></li>
-                        <li><a href="#">Асфальтирование</a></li>
-                        <li><a href="#">Преимущества</a></li>
-                        <li><a href="#">Объекты</a></li>
-                        <li><a href="#">Этапы работы</a></li>
-                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#block4">Укладка плитки</a></li>
+                        <li><a href="#block8">Асфальтирование</a></li>
+                        <li><a href="#block7">Преимущества</a></li>
+                        <li><a href="#block11">Объекты</a></li>
+                        <li><a href="#block12">Этапы работы</a></li>
+                        <li><a href="#block14">Отзывы</a></li>
                     </ul>
                 </div>
                 <div class="work-time">
@@ -47,7 +48,7 @@
                 </div>
             </div>
         </nav>
-        <section class="block01">
+        <section class="block01" id="block1">
             <div class="container">
                 <div class="box">
                     <div class="box-white">
@@ -61,7 +62,7 @@
 
             </div>
         </section>
-        <section class="block02">
+        <section class="block02" id="block2">
             <div class="top-box">
                 <div class="container">
                     <p><strong>ООО «СтавМастерСтрой»</strong> - это успешная, динамично развивающаяся компания, которая уже завоевала доверие на рынке строительных услуг. Мы имеем большой опыт работы в выполнении работ по благоустройству территорий. За время своей работы компания реализовала свыше 30  крупных государственных и коммерческих контрактов.</p>
@@ -102,7 +103,7 @@
                 </ul>
             </div>
         </section>
-        <section class="block03">
+        <section class="block03" id="block3">
             <div class="container">
                 <h2>Несколько цифр о нашей компании</h2>
                 <ul class="clearfix">
@@ -116,7 +117,7 @@
                 </div>
             </div>
         </section>
-        <section class="block04">
+        <section class="block04" id="block4">
             <div class="top-box">
                 <div class="container">
                     <h2>Укладка тротуарной плитки </h2>
@@ -163,25 +164,27 @@
                 </ul>
             </div>
         </section>
-        <section class="block05">
+        <section class="block05" id="block5">
             <div class="container">
                 <div class="form-block">
                     <div class="title">Запишитесь на бесплатный выезд мастера на объект и бесплатный расчет стоимости</div>
-                    <form class="form">
+                    <form class="form" name="form" method="POST" action="javascript:void(0);">
                         <div class="form-group">
-                            <input type="text" name="name" placeholder="Имя:">
+                            <label class="name none required">
+                                <input type="text" name="name" placeholder="Имя:">
+                            </label>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="tel" placeholder="Телефон:">
+                            <label class="phone none required">
+                                <input type="text" name="phone" placeholder="Телефон:">
+                            </label>
                         </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-sm">Отправить</button>
-                        </div>
+                        <button type="submit" class="btn btn-sm btn-send">Отправить</button>
                     </form>
                 </div>
             </div>
         </section>
-        <section class="block06">
+        <section class="block06" id="block6">
             <div class="container">
                 <h2><span><strong>Частые проблемы</strong>, с которыми сталкиваются клиенты при заказе услуг в других компаниях</span></h2>
                 <ul class="problem clearfix">
@@ -251,7 +254,7 @@
                 </ul>
             </div>
         </section>
-        <section class="block07">
+        <section class="block07" id="block7">
             <div class="container">
                 <h2><i>Преимущества работы с нашей компанией:</i></h2>
                 <ul class="advant clearfix">
@@ -323,7 +326,7 @@
                 </div>
             </div>
         </section>
-        <section class="block08">
+        <section class="block08" id="block8">
             <div class="top-box">
                 <div class="container">
                     <h2>Асфальтирование</h2>
@@ -373,7 +376,7 @@
                 </ul>
             </div>
         </section>
-        <section class="block09">
+        <section class="block09" id="block9">
             <div class="container">
                 <h2>Преимущества асфальта<span>по сравнению с бетонными смесями:</span></h2>
                 <ul class="clearfix">
@@ -404,25 +407,27 @@
                 </ul>
             </div>
         </section>
-        <section class="block10">
+        <section class="block10" id="block10">
             <div class="container">
                 <div class="form-block">
                     <div class="title">Запишитесь на бесплатный выезд мастера на объект и бесплатный расчет стоимости</div>
-                    <form class="form">
+                    <form class="form" name="form" method="POST" action="javascript:void(0);">
                         <div class="form-group">
-                            <input type="text" name="name" placeholder="Имя:">
+                            <label class="name none required">
+                                <input type="text" name="name" placeholder="Имя:">
+                            </label>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="tel" placeholder="Телефон:">
+                            <label class="phone none required">
+                                <input type="text" name="phone" placeholder="Телефон:">
+                            </label>
                         </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-sm">Отправить</button>
-                        </div>
+                        <button type="submit" class="btn btn-sm btn-send">Отправить</button>
                     </form>
                 </div>
             </div>
         </section>
-        <section class="block11">
+        <section class="block11" id="block11">
             <div class="container">
                 <h2>Наши объекты</h2>
                 <ul class="clearfix">
@@ -494,27 +499,142 @@
                     </li>
                 </ul>
                 <div class="text-center">
+                    <a class="btn btn-md  popup-form" href="#popup-form">Посмотреть все фото</a>
+                </div>
+            </div>
+        </section>
+        <section class="block12" id="block12">
+            <div class="container">
+                <h2>Как выполняется Ваш заказ</h2>
+                <ul class="clearfix">
+                    <li class="item1">Вы звоните</li>
+                    <li class="item2">Мы<br/>консультируем<br/>вас</li>
+                    <li class="item3">Выезжаем к вам на<br/>объект, замеряем<br/>территорию и<br/>консультируем</li>
+                    <li class="item4">Отправляем<br/>Вам составленную<br/>смету</li>
+                    <li class="item5">Вы ее одобряете,<br/>подписываем договор.<br/>Вносите аванс.</li>
+                    <li class="item6">Выполняем<br/>работы качественно<br/>и в срок.</li>
+                    <li class="item7">Вы остаетесь довольны<br/>результатом и<br/>рекомендуете нас<br/>друзьям.</li>
+                </ul>
+                <div class="text-center">
                     <a class="btn btn-md  popup-form" href="#popup-form">задать вопрос</a>
                 </div>
             </div>
         </section>
-        <section class="block12">
-            <div class="container"></div>
+        <section class="block13" id="block13">
+            <div class="container">
+                <div class="text-block">
+                    <h2><span><strong>Записывайтесь</strong> на бесплатную<br/>консультацию и мы подскажем</span></h2>
+                    <ul class="list-item">
+                        <li>как рационально и комфортно разместить все необходимое на Вашем участке</li>
+                        <li>как максимально выгодно подобрать материалы</li>
+                        <li>как красиво благоустроить территорию</li>
+                    </ul>
+                </div>
+                <div class="form-block">
+                    <div class="title">Запишитесь на бесплатный выезд мастера на объект и бесплатный расчет стоимости</div>
+                    <form class="form" name="form" method="POST" action="javascript:void(0);">
+                        <div class="form-group">
+                            <label class="name none required">
+                                <input type="text" name="name" placeholder="Имя:">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="phone none required">
+                                <input type="text" name="phone" placeholder="Телефон:">
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-sm btn-send">Отправить</button>
+                    </form>
+                </div>
+            </div>
         </section>
-        <section class="block13">
-            <div class="container"></div>
-        </section>
-        <section class="block14">
-            <div class="container"></div>
+        <section class="block14" id="block14">
+            <div class="container">
+                <h2><i>Отзывы клиентов</i></h2>
+                <div class="slider-inner">
+                    <ul class="slider">
+                        <li>
+                            <div class="slide-image">
+                                <img class="img-responsive" src="img/clients/01.jpg" alt="Отзывы клиенто">
+                            </div>
+                            <div class="title">Виктор Маркин</div>
+                            <p>Хотели бы сказать отдельное спасибо Дмитрию ( Миэль на Пресне ) за оказанную помощь, за профессионализм и конечно же за то, что помог нам в непростой ситуации. Мы уже не молодая семейная пара на пенсии, наши дети выросли и разъехались, а нашей целью стало перебраться куда-нибудь ближе к морю</p>
+                        </li>
+                        <li>
+                            <div class="slide-image">
+                                <img class="img-responsive" src="img/clients/02.jpg" alt="Отзывы клиенто">
+                            </div>
+                            <div class="title">Анна Прохорова</div>
+                            <p>Я люблю то, чем занимаюсь - мне нравится пробуждать людей, заставлять их задуматься, делать их  чуточку сильнее, чуточку лучше. Мне нравится искать и помогать компаниям преодолевать барьеры, которые мешают им расти и развиваться, переходить на следующий уровень</p>
+                        </li>
+                        <li>
+                            <div class="slide-image">
+                                <img class="img-responsive" src="img/clients/03.jpg" alt="Отзывы клиенто">
+                            </div>
+                            <div class="title">Николай Фоменко</div>
+                            <p>Я люблю то, чем занимаюсь - мне нравится пробуждать людей, заставлять их задуматься, делать их  чуточку сильнее, чуточку лучше. Мне нравится искать и помогать компаниям преодолевать барьеры, которые мешают им расти и развиваться, переходить на следующий уровень</p>
+                        </li>
+                        <li>
+                            <div class="slide-image">
+                                <img class="img-responsive" src="img/clients/04.jpg" alt="Отзывы клиенто">
+                            </div>
+                            <div class="title">Анна Прохорова</div>
+                            <p>Я люблю то, чем занимаюсь - мне нравится пробуждать людей, заставлять их задуматься, делать их  чуточку сильнее, чуточку лучше. Мне нравится искать и помогать компаниям преодолевать барьеры, которые мешают им расти и развиваться, переходить на следующий уровень</p>
+                        </li>
+                        <li>
+                            <div class="slide-image">
+                                <img class="img-responsive" src="img/clients/05.jpg" alt="Отзывы клиенто">
+                            </div>
+                            <div class="title">Виктор Маркин</div>
+                            <p>Хотели бы сказать отдельное спасибо Дмитрию ( Миэль на Пресне ) за оказанную помощь, за профессионализм и конечно же за то, что помог нам в непростой ситуации. Мы уже не молодая семейная пара на пенсии, наши дети выросли и разъехались, а нашей целью стало перебраться куда-нибудь ближе к морю</p>
+                        </li>
+                        <li>
+                            <div class="slide-image">
+                                <img class="img-responsive" src="img/clients/06.jpg" alt="Отзывы клиенто">
+                            </div>
+                            <div class="title">Анна Прохорова</div>
+                            <p>Я люблю то, чем занимаюсь - мне нравится пробуждать людей, заставлять их задуматься, делать их  чуточку сильнее, чуточку лучше. Мне нравится искать и помогать компаниям преодолевать барьеры, которые мешают им расти и развиваться, переходить на следующий уровень</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <footer class="footer">
-
+            <div class="container">
+                <div class="copy">Copyright 2015. Все права защищены</div>
+                <div class="text">Если у Вас остались вопросы, позвоните по телефону <span>8-800-000-00-00</span> <i>или</i></div>
+                <a class="btn  popup-form" href="#popup-form">ЗАКАЖИТЕ ОБРАТНЫЙ ЗВОНОК</a>
+                <div class="dev">Создание сайта: <a href="http://webagregator.ru/">WebAgregator</a></div>
+            </div>
         </footer>
+
+        <div class="hidden">
+            <div class="popup" id="popup-form">
+                <div class="title">Заказать консультацию</div>
+                <div class="popup-content">
+                    <form class="form" name="form" method="post" action="javascript:void(0);">
+                        <div class="form-group">
+                            <label class="name none required">
+                                <input type="text" name="name" placeholder="Имя:">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="phone none required">
+                                <input type="text" name="phone" placeholder="Телефон:">
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-sm btn-send">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/vendor/jquery.fancybox/jquery.fancybox.pack.js"></script>
+        <script src="js/vendor/slick/slick.min.js"></script>
         <script src="js/vendor/jquery.placeholder.js"></script>
+        <script src="js/vendor/validator.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
