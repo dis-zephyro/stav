@@ -71,6 +71,13 @@
 .text-right {
   text-align: right !important;
 }
+.nav-inner {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  position: fixed;
+}
 .topnav {
   width: 100%;
   z-index: 100;
@@ -129,7 +136,7 @@
 }
 .topnav .work-time {
   top: 6px;
-  left: 750px;
+  left: 700px;
   color: #fff;
   display: none;
   font-weight: 300;
@@ -181,7 +188,7 @@
 @media (min-width: 1024px) {
   .topnav ul li {
     font-size: 15px;
-    margin-right: 22px;
+    margin-right: 18px;
     display: inline-block;
   }
   .topnav .work-time {
@@ -226,6 +233,7 @@ html {
 }
 .block01 {
   height: 439px;
+  margin-top: 55px;
   padding-top: 65px;
   background: url("../img/block01_bg.jpg") top center no-repeat;
 }

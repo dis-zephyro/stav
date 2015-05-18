@@ -124,6 +124,6 @@ $('.slider').slick({
 
 $('.topnav li a').click(function(){
     var str=$(this).attr('href');
-    $.scrollTo(str, {offset:0});
+    $.scrollTo(str, {offset: -80});
     return false;
 });
