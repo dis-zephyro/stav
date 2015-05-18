@@ -136,7 +136,7 @@
 }
 .topnav .work-time {
   top: 6px;
-  left: 700px;
+  left: 750px;
   color: #fff;
   display: none;
   font-weight: 300;
@@ -228,12 +228,11 @@ html {
 }
 @media (min-width: 1024px) {
   .container {
-    width: 960px;
+    width: 1020px;
   }
 }
 .block01 {
   height: 439px;
-  margin-top: 55px;
   padding-top: 65px;
   background: url("../img/block01_bg.jpg") top center no-repeat;
 }
@@ -633,14 +632,10 @@ html {
   .block06 .problem.item6 {
     margin-left: 100px;
   }
-  .block06 .defective {
-    margin-left: -6px;
-    margin-right: -6px;
-  }
   .block06 .defective li {
     float: left;
-    width: 241px;
-    margin: 0 6px;
+    width: 225px;
+    margin: 0 5px;
   }
 }
 .block07 {
